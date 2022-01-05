@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#8E8E8E"
+    tools:context=".AccountFragment">
+
+    <LinearLayout
+        android:background="#fff"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <LinearLayout
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+       >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="8"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_height="wrap_content"
+            android:text="YOUR NAME"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:text="EDIT"
+            android:textColor="#FF5722"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_gravity="right|bottom"
+            android:gravity="right"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+91 - 9834004716  - madhavaneraye11@gmail.com"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:padding="5dp"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="6px"
+        android:background="#000000"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="8"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Account"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:padding="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Addresses, Favourites, Offers &amp; Settings"
+        android:textSize="16sp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:padding="5dp"/>
+    </LinearLayout>
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_baseline_keyboard_arrow_down_24"
+        android:layout_gravity="center"/>
+</LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="8dp"
+        android:background="#424040"
+        android:layout_marginRight="8dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="8"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Payments &amp; Refunds"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Refund Status &amp; Payment Modes"
+                android:textSize="16sp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:padding="5dp"/>
+        </LinearLayout>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_baseline_keyboard_arrow_down_24"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="8dp"
+        android:background="#424040"
+        android:layout_marginRight="8dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="8"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Swiggy Money"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="View Account Balance &amp; Transactions History"
+                android:textSize="16sp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:padding="5dp"/>
+        </LinearLayout>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="8dp"
+        android:background="#424040"
+        android:layout_marginRight="8dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="8"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Help"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FAQs &amp; Links"
+                android:textSize="16sp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:padding="5dp"/>
+        </LinearLayout>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:layout_marginTop="35dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="8"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LOGOUT OPTIONS"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:padding="5dp"/>
+
+
+        </LinearLayout>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+</LinearLayout>

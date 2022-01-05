@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/loginLayout"
+    android:layout_height="500dp"
+    android:background="@drawable/layoutborder"
+    android:layout_marginBottom="100dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:textStyle="bold"
+        android:layout_margin="2dp"
+        android:textColor="#000000"
+        android:textSize="24sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Enter your phone number to proceed"
+        android:layout_margin="2dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="10 digit mobile number"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="2dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginLeft="2dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+91"
+            android:textSize="18sp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:backgroundTint="@android:color/holo_red_light"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/numberBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:layout_marginTop="10dp"
+        android:text="ENTER PHONE NUMBER"
+        android:layout_margin="20dp"
+        android:padding="15dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:backgroundTint="#FF5722"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="By clicking, I accept the "/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Terms &amp; Conditions &amp; Privacy Policy"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="600dp"
+        android:clipToPadding="false"/>
+
+
+</LinearLayout>
